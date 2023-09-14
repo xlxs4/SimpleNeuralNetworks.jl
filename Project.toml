@@ -3,7 +3,15 @@ uuid = "0bb61000-c694-44c7-a89c-6d78df35678d"
 authors = ["Orestis Ousoultzoglou <orousoultzoglou@gmail.com> and contributors"]
 version = "0.0.1-DEV"
 
+[deps]
+ConcreteStructs = "2569d6c7-a4a2-43d3-a901-331e8e4be471"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+Zygote = "e88e6eb3-aa80-5325-afca-941959d7151f"
+
 [compat]
+ConcreteStructs = "0.2"
+Zygote = "0.6"
 julia = "1.9"
 
 [extras]
