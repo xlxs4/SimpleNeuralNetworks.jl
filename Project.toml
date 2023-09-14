@@ -1,0 +1,14 @@
+name = "SimpleNeuralNetworks"
+uuid = "0bb61000-c694-44c7-a89c-6d78df35678d"
+authors = ["Orestis Ousoultzoglou <orousoultzoglou@gmail.com> and contributors"]
+version = "0.0.1-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
